@@ -1,0 +1,54 @@
+Boss_JingShiChong03.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.8
+Cha
+	bounds: 245, 267, 35, 34
+FX/FX_Dao_02
+	bounds: 217, 21, 52, 73
+	rotate: 90
+FX/FX_Dao_03
+	bounds: 348, 190, 70, 139
+	rotate: 90
+FX/FX_Dao_04
+	bounds: 348, 134, 54, 130
+	rotate: 90
+HouJiao_L
+	bounds: 348, 79, 110, 53
+HouJiao_R
+	bounds: 119, 2, 41, 79
+	rotate: 90
+QianZhua_L
+	bounds: 217, 75, 64, 165
+QianZhua_R
+	bounds: 283, 152, 63, 149
+ShenTi01
+	bounds: 245, 303, 109, 204
+	offsets: 0, 1, 109, 206
+ShenTi02
+	bounds: 2, 18, 115, 222
+ShenTi03
+	bounds: 356, 262, 115, 140
+	rotate: 90
+ShenTi03_1
+	bounds: 2, 242, 241, 265
+ShenTi04
+	bounds: 119, 45, 195, 96
+	rotate: 90
+ShouBi_L
+	bounds: 341, 16, 61, 62
+	rotate: 90
+ShouBi_R
+	bounds: 283, 88, 62, 63
+	rotate: 90
+Tou
+	bounds: 356, 379, 128, 128
+Yan_L
+	bounds: 292, 39, 47, 47
+YingZi
+	bounds: 486, 442, 65, 9
+	rotate: 90
+Zui
+	bounds: 405, 6, 71, 28
+	rotate: 90

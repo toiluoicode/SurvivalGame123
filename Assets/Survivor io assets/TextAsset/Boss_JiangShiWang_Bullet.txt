@@ -1,0 +1,283 @@
+{
+"skeleton": { "hash": "WkEW184oTVg", "spine": "4.0.63", "x": -235.64, "y": -237, "width": 474, "height": 474 },
+"bones": [
+	{ "name": "root", "x": 1.36 },
+	{ "name": "bone_Bullet", "parent": "root" },
+	{ "name": "bone_Head", "parent": "bone_Bullet", "x": 15, "y": -10 },
+	{ "name": "bone_FX_HeadGlow", "parent": "root", "scaleX": 6, "scaleY": 6 },
+	{ "name": "bone_Head2", "parent": "bone_Head", "length": 92.81, "rotation": 153.89, "x": 25.85, "y": 9.17 },
+	{ "name": "bone_Mouth", "parent": "bone_Head", "length": 91.8, "rotation": -163.98, "x": 43.01, "y": 5.08 }
+],
+"slots": [
+	{ "name": "FX_HeadGlow2", "bone": "bone_FX_HeadGlow", "attachment": "FX_HeadGlow/FX_HeadGlow_01", "blend": "additive" },
+	{ "name": "Mouth_Shadow", "bone": "bone_Head", "attachment": "Mouth_2" },
+	{ "name": "Head", "bone": "bone_Head2", "attachment": "Head" },
+	{ "name": "Mouth_1", "bone": "bone_Mouth", "attachment": "Mouth_1" },
+	{ "name": "Eye_1", "bone": "bone_Head2", "attachment": "Eye_1" },
+	{ "name": "Eye_2", "bone": "bone_Head2", "attachment": "Eye_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Eye_1": {
+				"Cha": {
+					"x": 97.16,
+					"y": -0.08,
+					"scaleX": 0.8,
+					"scaleY": 0.8,
+					"rotation": -153.89,
+					"width": 44,
+					"height": 42
+				},
+				"Eye_1": {
+					"x": 97.16,
+					"y": -0.08,
+					"scaleX": 0.8,
+					"scaleY": 0.8,
+					"rotation": -153.89,
+					"width": 46,
+					"height": 46
+				}
+			},
+			"Eye_2": {
+				"Cha": { "x": 50.52, "y": -16.26, "rotation": -153.89, "width": 44, "height": 42 },
+				"Eye_1": { "x": 50.52, "y": -16.26, "rotation": -153.89, "width": 46, "height": 46 }
+			},
+			"FX_HeadGlow2": {
+				"FX_HeadGlow/FX_HeadGlow_01": { "width": 79, "height": 79 },
+				"FX_HeadGlow/FX_HeadGlow_02": { "rotation": 0.11, "width": 79, "height": 79 },
+				"FX_HeadGlow/FX_HeadGlow_03": { "rotation": 0.11, "width": 79, "height": 79 },
+				"FX_HeadGlow/FX_HeadGlow_04": { "rotation": 0.11, "width": 79, "height": 79 },
+				"FX_HeadGlow/FX_HeadGlow_05": { "rotation": 0.11, "width": 79, "height": 79 },
+				"FX_HeadGlow/FX_HeadGlow_06": { "rotation": 0.11, "width": 79, "height": 79 }
+			},
+			"Head": {
+				"Head": { "x": 57.14, "y": -15.8, "rotation": -153.89, "width": 145, "height": 115 }
+			},
+			"Mouth_1": {
+				"Mouth_1": { "x": 69.34, "y": 11.39, "rotation": 163.98, "width": 161, "height": 118 }
+			},
+			"Mouth_Shadow": {
+				"Mouth_2": {
+					"type": "mesh",
+					"uvs": [ 0.50358, 0, 1, 0.11716, 1, 0.50423, 0.99385, 0.80086, 0.74754, 1, 0.40276, 1, 0, 0.94902, 0, 0.74459, 0.0985, 0.12901, 0.28436, 0 ],
+					"triangles": [ 3, 4, 2, 5, 7, 8, 2, 4, 5, 5, 6, 7, 2, 5, 0, 5, 8, 0, 0, 8, 9, 0, 1, 2 ],
+					"vertices": [ 1, 4, 57.96, -3.7, 1, 1, 4, -0.99, -18.77, 1, 2, 4, -19.05, 18.07, 0.456, 5, 13.36, 17.52, 0.544, 1, 5, 22.74, 47.54, 1, 1, 5, 56.98, 59.68, 1, 1, 5, 96.75, 48.26, 1, 1, 5, 141.71, 29.73, 1, 2, 4, 77.49, 93.77, 0.21092, 5, 135.73, 8.91, 0.78908, 2, 4, 95.59, 29.98, 0.86, 5, 106.37, -50.55, 0.14, 2, 4, 81.59, 7.88, 0.85705, 5, 81.16, -57.54, 0.14295 ],
+					"hull": 10
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"Bullet_01": {
+		"slots": {
+			"FX_HeadGlow2": {
+				"attachment": [
+					{ "time": 0.0667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.1333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.2, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.2667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.3333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.4, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.4667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.5333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.6, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.6667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.7333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.8, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.8667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.9333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 1, "name": "FX_HeadGlow/FX_HeadGlow_04" }
+				]
+			}
+		},
+		"bones": {
+			"bone_Bullet": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -179 },
+					{ "time": 1, "value": -358 }
+				]
+			}
+		}
+	},
+	"Bullet_02": {
+		"slots": {
+			"FX_HeadGlow2": {
+				"attachment": [
+					{ "time": 0.0667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.1333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.2, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.2667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.3333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.4, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.4667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.5333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.6, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.6667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.7333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.8, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.8667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.9333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 1, "name": "FX_HeadGlow/FX_HeadGlow_04" }
+				]
+			}
+		},
+		"bones": {
+			"bone_Mouth": {
+				"rotate": [
+					{ "value": 23.98, "curve": "stepped" },
+					{ "time": 0.0333, "value": 23.98 },
+					{ "time": 0.1333, "value": -6.02, "curve": "stepped" },
+					{ "time": 0.1667, "value": -6.02 },
+					{ "time": 0.3, "value": 23.98, "curve": "stepped" },
+					{ "time": 0.3667, "value": 23.98 },
+					{ "time": 0.4667, "value": -6.02, "curve": "stepped" },
+					{ "time": 0.5, "value": -6.02 },
+					{ "time": 0.6333, "value": 23.98, "curve": "stepped" },
+					{ "time": 0.7, "value": 23.98 },
+					{ "time": 0.8, "value": -6.02, "curve": "stepped" },
+					{ "time": 0.8333, "value": -6.02 },
+					{ "time": 0.9667, "value": 23.98 }
+				],
+				"translate": [
+					{ "y": 4.92 }
+				]
+			},
+			"bone_Head": {
+				"rotate": [
+					{ "value": -10, "curve": "stepped" },
+					{ "time": 0.0333, "value": -10 },
+					{ "time": 0.1333, "value": 5, "curve": "stepped" },
+					{ "time": 0.1667, "value": 5 },
+					{ "time": 0.3, "value": -5 },
+					{ "time": 0.3333, "value": -10, "curve": "stepped" },
+					{ "time": 0.3667, "value": -10 },
+					{ "time": 0.4667, "value": 5, "curve": "stepped" },
+					{ "time": 0.5, "value": 5 },
+					{ "time": 0.6333, "value": -5 },
+					{ "time": 0.6667, "value": -10, "curve": "stepped" },
+					{ "time": 0.7, "value": -10 },
+					{ "time": 0.8, "value": 5, "curve": "stepped" },
+					{ "time": 0.8333, "value": 5 },
+					{ "time": 0.9667, "value": -5 }
+				]
+			},
+			"bone_Head2": {
+				"rotate": [
+					{ "value": -3.89, "curve": "stepped" },
+					{ "time": 0.0333, "value": -3.89 },
+					{ "time": 0.1333, "value": 1.11, "curve": "stepped" },
+					{ "time": 0.1667, "value": 1.11 },
+					{ "time": 0.3, "value": -3.89, "curve": "stepped" },
+					{ "time": 0.3667, "value": -3.89 },
+					{ "time": 0.4667, "value": 1.11, "curve": "stepped" },
+					{ "time": 0.5, "value": 1.11 },
+					{ "time": 0.6333, "value": -3.89, "curve": "stepped" },
+					{ "time": 0.7, "value": -3.89 },
+					{ "time": 0.8, "value": 1.11, "curve": "stepped" },
+					{ "time": 0.8333, "value": 1.11 },
+					{ "time": 0.9667, "value": -3.89 }
+				],
+				"translate": [
+					{ "y": 2.83, "curve": "stepped" },
+					{ "time": 0.0333, "y": 2.83 },
+					{ "time": 0.1333, "y": -1.17, "curve": "stepped" },
+					{ "time": 0.1667, "y": -1.17 },
+					{ "time": 0.3, "y": 2.83, "curve": "stepped" },
+					{ "time": 0.3667, "y": 2.83 },
+					{ "time": 0.4667, "y": -1.17, "curve": "stepped" },
+					{ "time": 0.5, "y": -1.17 },
+					{ "time": 0.6333, "y": 2.83, "curve": "stepped" },
+					{ "time": 0.7, "y": 2.83 },
+					{ "time": 0.8, "y": -1.17, "curve": "stepped" },
+					{ "time": 0.8333, "y": -1.17 },
+					{ "time": 0.9667, "y": 2.83 }
+				]
+			}
+		}
+	},
+	"Bullet_Death": {
+		"slots": {
+			"Eye_1": {
+				"attachment": [
+					{ "name": "Cha" }
+				]
+			},
+			"Eye_2": {
+				"attachment": [
+					{ "name": "Cha" }
+				]
+			},
+			"FX_HeadGlow2": {
+				"attachment": [
+					{ "time": 0.0667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.1333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.2, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.2667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.3333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.4, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.4667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.5333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.6, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.6667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.7333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.8, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.8667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.9333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 1, "name": "FX_HeadGlow/FX_HeadGlow_04" }
+				]
+			}
+		},
+		"bones": {
+			"bone_Bullet": {
+				"rotate": [
+					{ "value": -90 }
+				]
+			},
+			"bone_FX_HeadGlow": {
+				"scale": [
+					{ "x": 0 }
+				]
+			}
+		}
+	},
+	"Bullet_Idle": {
+		"slots": {
+			"FX_HeadGlow2": {
+				"attachment": [
+					{ "time": 0.0667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.1333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.2, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.2667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.3333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.4, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.4667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.5333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 0.6, "name": "FX_HeadGlow/FX_HeadGlow_04" },
+					{ "time": 0.6667, "name": "FX_HeadGlow/FX_HeadGlow_05" },
+					{ "time": 0.7333, "name": "FX_HeadGlow/FX_HeadGlow_06" },
+					{ "time": 0.8, "name": "FX_HeadGlow/FX_HeadGlow_01" },
+					{ "time": 0.8667, "name": "FX_HeadGlow/FX_HeadGlow_02" },
+					{ "time": 0.9333, "name": "FX_HeadGlow/FX_HeadGlow_03" },
+					{ "time": 1, "name": "FX_HeadGlow/FX_HeadGlow_04" }
+				]
+			}
+		},
+		"bones": {
+			"bone_Bullet": {
+				"rotate": [
+					{ "value": -90 }
+				]
+			},
+			"bone_FX_HeadGlow": {
+				"scale": [
+					{ "x": 0 }
+				]
+			}
+		}
+	}
+}
+}

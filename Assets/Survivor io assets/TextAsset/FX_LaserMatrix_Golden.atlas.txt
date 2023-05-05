@@ -1,0 +1,37 @@
+FX_LaserMatrix_Golden.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.75
+FX_CenterGlow_01
+	bounds: 189, 187, 48, 48
+FX_Dark
+	bounds: 189, 161, 24, 24
+FX_HitPoint/FX_HitPoint_01
+	bounds: 185, 56, 85, 63
+	offsets: 4, 2, 96, 96
+	rotate: 90
+FX_HitPoint/FX_HitPoint_02
+	bounds: 89, 9, 90, 72
+	offsets: 1, 2, 96, 96
+	rotate: 90
+FX_HitPoint/FX_HitPoint_03
+	bounds: 98, 143, 89, 92
+	offsets: 2, 1, 96, 96
+FX_HitPoint/FX_HitPoint_04
+	bounds: 2, 98, 85, 92
+	offsets: 3, 1, 96, 96
+FX_Laser/FX_Laser_01
+	bounds: 2, 192, 94, 43
+	offsets: 0, 3, 96, 48
+FX_Laser/FX_Laser_02
+	bounds: 2, 2, 94, 39
+	offsets: 0, 4, 96, 48
+	rotate: 90
+FX_Laser/FX_Laser_03
+	bounds: 89, 101, 94, 40
+	offsets: 0, 4, 96, 48
+FX_Laser/FX_Laser_04
+	bounds: 43, 2, 94, 36
+	offsets: 0, 6, 96, 48
+	rotate: 90

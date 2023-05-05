@@ -1,0 +1,12 @@
+g Skeleton Prefab Mesh "Spine GameObject (Battle_ZuoLun)"
+v -0.442085 -0.2402196 0
+v -0.3962517 0.283657 0
+v 0.1573956 -0.2926674 0
+v 0.2032288 0.2312093 0
+vt 0.484375 0.0625
+vt 0.484375 0.4765625
+vt 0.015625 0.0625
+vt 0.015625 0.4765625
+g Skeleton Prefab Mesh "Spine GameObject (Battle_ZuoLun)"_0
+f 2/2/2 3/3/3 1/1/1
+f 2/2/2 4/4/4 3/3/3

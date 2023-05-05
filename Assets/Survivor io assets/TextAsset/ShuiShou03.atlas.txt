@@ -1,0 +1,55 @@
+ShuiShou03.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.42
+Jiao_L
+	bounds: 67, 87, 26, 43
+Jiu_1
+	bounds: 95, 89, 31, 35
+Jiu_2
+	bounds: 2, 2, 28, 14
+MaoZi
+	bounds: 202, 145, 103, 50
+	rotate: 90
+ShenTi
+	bounds: 100, 184, 100, 64
+Shou_L
+	bounds: 63, 132, 44, 28
+	rotate: 90
+Shou_R
+	bounds: 128, 101, 40, 23
+SuiPian1
+	bounds: 100, 126, 56, 72
+	rotate: 90
+SuiPian2
+	bounds: 119, 45, 42, 50
+	rotate: 90
+SuiPian3
+	bounds: 2, 79, 45, 63
+	rotate: 90
+SuiPian4
+	bounds: 174, 31, 44, 44
+SuiPian5
+	bounds: 196, 77, 66, 46
+	rotate: 90
+SuiPian6
+	bounds: 67, 34, 50, 51
+SuiPian7
+	bounds: 2, 129, 59, 47
+SuiPian8
+	bounds: 119, 5, 53, 38
+SuiPian9
+	bounds: 2, 18, 59, 49
+	offsets: 1, 2, 61, 53
+	rotate: 90
+Tou
+	bounds: 2, 178, 96, 70
+Yan_R
+	bounds: 53, 2, 30, 30
+YaoDai
+	bounds: 174, 79, 103, 20
+	rotate: 90
+YingZi
+	bounds: 196, 162, 20, 3
+	rotate: 90

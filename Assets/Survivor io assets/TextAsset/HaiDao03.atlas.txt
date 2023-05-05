@@ -1,0 +1,68 @@
+HaiDao03.png
+	size: 512, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.48
+BianZi
+	bounds: 412, 143, 69, 54
+Dao
+	bounds: 88, 98, 53, 156
+DaoSuiPian1
+	bounds: 169, 3, 53, 95
+	offsets: 0, 0, 53, 96
+DaoSuiPian2
+	bounds: 2, 3, 31, 91
+	offsets: 0, 1, 31, 92
+GeBo_R
+	bounds: 143, 100, 56, 32
+GoBo_L
+	bounds: 369, 129, 41, 43
+GouZi
+	bounds: 412, 82, 59, 66
+	rotate: 90
+HuXu
+	bounds: 369, 14, 66, 54
+	rotate: 90
+HuoQiang
+	bounds: 35, 11, 83, 58
+	rotate: 90
+MaoZi
+	bounds: 2, 96, 158, 84
+	rotate: 90
+ShenTi
+	bounds: 143, 134, 120, 72
+	rotate: 90
+SuiPian1
+	bounds: 217, 139, 74, 115
+	offsets: 0, 1, 75, 116
+SuiPian2
+	bounds: 354, 174, 56, 80
+	offsets: 1, 1, 58, 81
+SuiPian3
+	bounds: 95, 2, 72, 94
+	offsets: 0, 1, 72, 95
+SuiPian5
+	bounds: 412, 199, 77, 55
+	offsets: 1, 0, 79, 55
+SuiPian6
+	bounds: 224, 8, 71, 93
+	offsets: 1, 0, 72, 93
+SuiPian7
+	bounds: 297, 40, 101, 70
+	offsets: 0, 1, 102, 72
+	rotate: 90
+SuiPian8
+	bounds: 425, 16, 64, 62
+	offsets: 0, 0, 65, 63
+	rotate: 90
+Tou
+	bounds: 293, 143, 111, 59
+	rotate: 90
+Tui_R
+	bounds: 201, 103, 29, 50
+	rotate: 90
+Yan_L
+	bounds: 253, 112, 25, 24
+	rotate: 90
+YingZi
+	bounds: 35, 5, 24, 4

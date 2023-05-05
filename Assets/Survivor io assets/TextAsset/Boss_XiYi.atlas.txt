@@ -1,0 +1,36 @@
+Boss_XiYi.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.9
+Cha
+	bounds: 43, 187, 40, 38
+	rotate: 90
+Glow/Glow_05
+	bounds: 434, 183, 57, 60
+	offsets: 28, 22, 115, 115
+	rotate: 90
+HouTui_L
+	bounds: 434, 242, 62, 78
+HouTui_R
+	bounds: 434, 402, 73, 96
+QianTui_L
+	bounds: 434, 322, 69, 78
+QianTui_R
+	bounds: 247, 2, 81, 96
+ShenTi
+	bounds: 2, 229, 430, 269
+ShenTi_Glow
+	bounds: 2, 19, 243, 162
+Yan_L
+	bounds: 2, 187, 39, 40
+Yan_R
+	bounds: 330, 45, 53, 53
+YingZi
+	bounds: 498, 267, 53, 6
+	rotate: 90
+Zui
+	bounds: 247, 100, 160, 127
+Zui_2
+	bounds: 409, 86, 95, 97
+	rotate: 90

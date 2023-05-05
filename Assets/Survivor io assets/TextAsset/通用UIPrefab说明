@@ -1,0 +1,56 @@
+# 通用UIPrefab文件夹
+
+## 文件
+```
+CommonRectWithBorder 带纯色边框的Rect
+```
+```
+CommonHorizontalLevelStar 横向排列星星（武器面板）
+```
+```
+CommonPopPanelBackground 弹窗标题+背景+关闭
+```
+```
+CommonPopPanelBackgroundSecondary 次级弹窗标题+背景+关闭
+```
+```
+CommonWatermarkBG 带滚动水印的背景板
+```
+
+
+## 文件夹
+
+### Background 通用背景Prefab
+```
+ModalBackground 蒙灰背景
+```
+```
+ModalBackgroundCanvas 带Canvas的蒙灰背景
+```
+```
+ModalForegroundTransparent 透明前景（一般用来做挡板防止误触）
+```
+
+### Button 通用按钮Prefab
+`通用按钮结构说明`
+
+各种通用按钮，带Language的按钮文字有DxxLanguage脚本支持
+
+根节点用来做缩放和动画支持
+
+Button节点是挂按钮脚本的节点，同时也是调整按钮触控响应大小
+
+Button/fg/SizeRect节点是按钮显示节点，用来调整按钮显示内容的大小
+
+### Text 通用文本Prefab
+```
+TextCommon 通用文本
+```
+```
+TextCommonAlpha 通用文本，支持outline的透明 尽量用这个
+```
+```
+TextCommonAlpha_Language 上面的多语言版本
+```
+
+

@@ -1,0 +1,28 @@
+Boss_XiYi_FX.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.9
+FX_CenterGlow_01
+	bounds: 176, 193, 58, 58
+FX_Laser/FX_Laser_01
+	bounds: 2, 2, 115, 58
+FX_Laser/FX_Laser_02
+	bounds: 95, 110, 115, 51
+	offsets: 0, 3, 115, 58
+FX_Laser/FX_Laser_03
+	bounds: 119, 58, 115, 50
+	offsets: 0, 4, 115, 58
+FX_Laser/FX_Laser_04
+	bounds: 119, 9, 115, 47
+	offsets: 0, 5, 115, 58
+FX_Ring/FX_Ring_01
+	bounds: 92, 163, 88, 82
+	offsets: 14, 16, 115, 115
+	rotate: 90
+FX_Ring/FX_Ring_02
+	bounds: 2, 62, 91, 91
+	offsets: 12, 12, 115, 115
+FX_Ring/FX_Ring_03
+	bounds: 2, 155, 88, 96
+	offsets: 13, 9, 115, 115

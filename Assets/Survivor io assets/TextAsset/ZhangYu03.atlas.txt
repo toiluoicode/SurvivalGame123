@@ -1,0 +1,28 @@
+ZhangYu03.png
+	size: 256, 128
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+Cha
+	bounds: 200, 69, 18, 17
+	rotate: 90
+Tou
+	bounds: 2, 2, 124, 122
+	rotate: 90
+Tui_1
+	bounds: 188, 3, 34, 60
+Tui_2
+	bounds: 176, 89, 37, 68
+	rotate: 90
+Tui_3
+	bounds: 126, 61, 65, 48
+	rotate: 90
+Yan_L
+	bounds: 224, 59, 28, 28
+Yan_R
+	bounds: 176, 65, 22, 22
+YingZi
+	bounds: 126, 8, 33, 5
+Zui
+	bounds: 126, 15, 44, 60
+	rotate: 90

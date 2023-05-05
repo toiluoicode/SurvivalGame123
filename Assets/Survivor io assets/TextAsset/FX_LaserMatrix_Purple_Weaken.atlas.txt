@@ -1,0 +1,35 @@
+FX_LaserMatrix_Purple_Weaken.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.75
+FX_CenterGlow_01
+	bounds: 189, 108, 48, 48
+FX_Dark
+	bounds: 98, 2, 24, 24
+FX_HitPoint/FX_HitPoint_01
+	bounds: 2, 69, 93, 91
+	offsets: 2, 1, 96, 96
+FX_HitPoint/FX_HitPoint_02
+	bounds: 99, 160, 92, 92
+	offsets: 4, 1, 96, 96
+FX_HitPoint/FX_HitPoint_03
+	bounds: 2, 162, 95, 90
+	offsets: 1, 2, 96, 96
+FX_HitPoint/FX_HitPoint_04
+	bounds: 97, 69, 90, 89
+	offsets: 3, 3, 96, 96
+FX_Laser/FX_Laser_01
+	bounds: 2, 23, 94, 44
+	offsets: 0, 2, 96, 48
+FX_Laser/FX_Laser_02
+	bounds: 98, 28, 94, 39
+	offsets: 0, 4, 96, 48
+FX_Laser/FX_Laser_03
+	bounds: 193, 158, 94, 40
+	offsets: 0, 4, 96, 48
+	rotate: 90
+FX_Laser/FX_Laser_04
+	bounds: 194, 12, 94, 36
+	offsets: 0, 6, 96, 48
+	rotate: 90

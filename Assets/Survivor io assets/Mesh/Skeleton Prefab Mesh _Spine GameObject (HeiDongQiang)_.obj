@@ -1,0 +1,12 @@
+g Skeleton Prefab Mesh "Spine GameObject (HeiDongQiang)"
+v -2.017629 -1.017134 0
+v -2.383399 0.9223611 0
+v 1.757922 -0.3051012 0
+v 1.392152 1.634394 0
+vt 0.578125 0.015625
+vt 0.578125 0.6015625
+vt 0.0078125 0.015625
+vt 0.0078125 0.6015625
+g Skeleton Prefab Mesh "Spine GameObject (HeiDongQiang)"_0
+f 2/2/2 3/3/3 1/1/1
+f 2/2/2 4/4/4 3/3/3

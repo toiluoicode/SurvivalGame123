@@ -1,0 +1,39 @@
+Boss_PangXie.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.9
+Cha
+	bounds: 386, 228, 40, 38
+Chuan
+	bounds: 240, 390, 257, 120
+DaBi_R
+	bounds: 240, 76, 87, 79
+	offsets: 1, 1, 88, 80
+Jiao_L1
+	bounds: 178, 21, 48, 104
+Jiao_R1
+	bounds: 386, 268, 120, 58
+	rotate: 90
+QiZi
+	bounds: 2, 2, 108, 123
+	offsets: 2, 0, 110, 123
+QianZi_R
+	bounds: 240, 228, 144, 160
+ShenTi
+	bounds: 2, 127, 236, 383
+Shou_L
+	bounds: 112, 2, 123, 64
+	offsets: 0, 1, 124, 66
+	rotate: 90
+Shou_R1
+	bounds: 240, 157, 69, 138
+	offsets: 1, 1, 70, 140
+	rotate: 90
+Shou_R2
+	bounds: 446, 291, 51, 97
+	offsets: 1, 1, 53, 99
+Yan_R
+	bounds: 329, 96, 59, 59
+YingZi
+	bounds: 228, 62, 74, 12

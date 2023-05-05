@@ -1,0 +1,86 @@
+Boss_HaiDao03.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.8
+BianZi
+	bounds: 301, 283, 106, 82
+	rotate: 90
+Cha
+	bounds: 263, 355, 35, 34
+Dao
+	bounds: 2, 95, 80, 256
+FX_DaoGuang/FX_DaoGuang_01
+	bounds: 333, 44, 78, 58
+	offsets: 7, 21, 102, 80
+	rotate: 90
+FX_DaoGuang/FX_DaoGuang_02
+	bounds: 204, 124, 94, 43
+	offsets: 8, 33, 102, 80
+FX_DaoGuang/FX_DaoGuang_03
+	bounds: 436, 305, 95, 58
+	offsets: 7, 16, 102, 80
+	rotate: 90
+FX_DaoGuang/FX_DaoGuang_04
+	bounds: 189, 52, 76, 70
+	offsets: 26, 4, 102, 80
+FX_DaoGuang/FX_DaoGuang_05
+	bounds: 114, 8, 85, 73
+	offsets: 16, 0, 102, 80
+	rotate: 90
+FX_DaoGuang/FX_DaoGuang_06
+	bounds: 84, 95, 85, 56
+	offsets: 16, 3, 102, 80
+FX_DaoGuang/FX_DaoGuang_07
+	bounds: 301, 182, 99, 70
+	offsets: 1, 6, 102, 80
+	rotate: 90
+FX_DaoGuang/FX_DaoGuang_08
+	bounds: 301, 124, 81, 56
+	offsets: 2, 20, 102, 80
+FX_DaoGuang/FX_DaoGuang_09
+	bounds: 373, 189, 85, 56
+	offsets: 1, 20, 102, 80
+	rotate: 90
+FX_DaoGuang/FX_DaoGuang_10
+	bounds: 384, 132, 84, 55
+	offsets: 2, 20, 102, 80
+FX_DaoGuang/FX_DaoGuang_11
+	bounds: 274, 13, 57, 38
+	offsets: 29, 20, 102, 80
+FX_DaoGuang/FX_DaoGuang_12
+	bounds: 436, 265, 42, 38
+	offsets: 44, 20, 102, 80
+GeBo_R
+	bounds: 393, 41, 89, 50
+	rotate: 90
+GoBo_L
+	bounds: 267, 53, 64, 69
+GouZi
+	bounds: 403, 402, 95, 108
+HuXu
+	bounds: 2, 3, 110, 90
+HuoQiang
+	bounds: 263, 391, 138, 97
+MaoZi
+	bounds: 2, 353, 259, 135
+ShenTi
+	bounds: 84, 153, 198, 118
+	rotate: 90
+ShengZi
+	bounds: 2, 490, 386, 20
+Tou
+	bounds: 204, 169, 182, 95
+	rotate: 90
+Tui_R
+	bounds: 189, 2, 48, 83
+	rotate: 90
+YanZhao
+	bounds: 385, 276, 113, 49
+	rotate: 90
+Yan_L
+	bounds: 333, 2, 40, 38
+	rotate: 90
+YingZi
+	bounds: 500, 469, 41, 6
+	rotate: 90
